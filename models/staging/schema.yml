@@ -1,0 +1,20 @@
+
+
+
+version: 2
+sources:
+  - name: mit_shared_schema
+    database: "{{('dbt_db2')}}"
+    schema: staging_layer2
+
+
+    tables:
+      - name: stage_customerdate
+      - name: stage_payments
+      - name: stage_ordersdate
+      - name: stage_product_data
+      
+      - name: stage_supplies_data
+      - name: stage_stores_data
+      - name: stage_items_data
+
